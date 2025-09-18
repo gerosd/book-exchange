@@ -29,7 +29,7 @@ export default async function AdminPanel() {
             <div className="grid lg:grid-cols-2 gap-8">
                 {/* Новые заявки */}
                 <div>
-                    <h2 className="text-xl font-semibold text-gray-100 mb-4 flex items-center">
+                    <h2 className="text-xl font-semibold dark:text-gray-100 text-gray-700 mb-4 flex items-center">
                         🔔 Новые заявки
                         <span className="ml-2 bg-yellow-100 text-yellow-800 text-sm px-2 py-1 rounded-full">
                             {pendingApplications.length}
@@ -55,7 +55,7 @@ export default async function AdminPanel() {
 
                 {/* Рассмотренные заявки */}
                 <div>
-                    <h2 className="text-xl font-semibold text-gray-100 mb-4 flex items-center">
+                    <h2 className="text-xl font-semibold dark:text-gray-100 text-gray-700 mb-4 flex items-center">
                         📋 Рассмотренные заявки
                         <span className="ml-2 bg-gray-100 text-gray-800 text-sm px-2 py-1 rounded-full">
               {reviewedApplications.length}
