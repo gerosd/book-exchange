@@ -7,10 +7,10 @@ export default async function Home() {
     return (
         <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-                <h1 className="text-4xl font-bold text-gray-800 mb-4">
+                <h1 className="text-4xl font-bold text-gray-100 mb-4">
                     📚 Система обмена книгами
                 </h1>
-                <p className="text-xl text-gray-600 mb-8">
+                <p className="text-xl text-gray-400 mb-8">
                     Найдите новые книги или поделитесь своими с другими читателями
                 </p>
                 
