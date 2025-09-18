@@ -78,24 +78,24 @@ export default async function Home() {
                 <div className="grid md:grid-cols-3 gap-6">
                     <div className="text-center">
                         <div className="text-3xl mb-4">1️⃣</div>
-                        <h3 className="font-semibold mb-2">Регистрация</h3>
-                        <p className="text-gray-600 text-sm">
+                        <h3 className="font-semibold mb-2 text-gray-700">Регистрация</h3>
+                        <p className="text-gray-600 text-sm text-gray-700">
                             Создайте аккаунт, указав свои контактные данные
                         </p>
                     </div>
                     
                     <div className="text-center">
                         <div className="text-3xl mb-4">2️⃣</div>
-                        <h3 className="font-semibold mb-2">Создание заявки</h3>
-                        <p className="text-gray-600 text-sm">
+                        <h3 className="font-semibold mb-2 text-gray-700">Создание заявки</h3>
+                        <p className="text-gray-600 text-sm text-gray-700">
                             Опишите книгу, которую хотите отдать или получить
                         </p>
                     </div>
                     
                     <div className="text-center">
                         <div className="text-3xl mb-4">3️⃣</div>
-                        <h3 className="font-semibold mb-2">Модерация</h3>
-                        <p className="text-gray-600 text-sm">
+                        <h3 className="font-semibold mb-2 text-gray-700">Модерация</h3>
+                        <p className="text-gray-600 text-sm text-gray-700">
                             Администратор проверит заявку и свяжется с вами
                         </p>
                     </div>
