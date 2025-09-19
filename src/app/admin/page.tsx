@@ -18,10 +18,10 @@ export default async function AdminPanel() {
     return (
         <div className="max-w-7xl mx-auto">
             <div className="mb-8">
-                <h1 className="text-3xl font-bold text-gray-800 mb-2">
+                <h1 className="text-3xl font-bold dark:text-gray-100 text-gray-800 mb-2">
                     Панель администратора
                 </h1>
-                <p className="text-gray-600">
+                <p className="text-gray-600 dark:text-gray-200">
                     Добро пожаловать, {user.fullName}
                 </p>
             </div>
